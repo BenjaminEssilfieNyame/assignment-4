@@ -1,0 +1,28 @@
+/* style rules for contact section */
+
+#contact-us {
+  background: #24527e;
+  color: #effaff;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%);
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+#contact-us .contact-inner {
+  padding-top: 110px;
+  padding-bottom: 60px;
+}
+
+#contact-us .contact-inner .col-12 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+}
+
+#contact-us .contact-inner .col-12 .col-left form .contact-email {
+  grid-area: email;
+}
